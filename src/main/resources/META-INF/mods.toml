@@ -1,0 +1,32 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "fossiltweaks"
+version = "1.5-forge-1.0.0"
+displayName = "Cobblemon Fossil Tweaks"
+description = '''
+Tweak the Cobblemon fossil workflow as you please!
+'''
+
+[[dependencies.fossiltweaks]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.fossiltweaks]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.fossiltweaks]]
+modId = "cobblemon"
+mandatory = true
+versionRange = "[1.5.0,1.6.0)"
+ordering = "NONE"
+side = "BOTH"

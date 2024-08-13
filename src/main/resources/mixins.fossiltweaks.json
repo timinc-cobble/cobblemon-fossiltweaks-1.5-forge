@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "us.timinc.mc.cobblemon.fossiltweaks.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "FossilMultiblockStructureMixin"
+  ]
+}
